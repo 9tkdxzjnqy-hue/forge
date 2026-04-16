@@ -7,22 +7,33 @@
 This repo is a framework, not a product. It defines exactly how to
 behave when someone opens it. Follow these rules without exception:
 
-1. **Never improvise.** Do not invent your own discovery process,
+1. **Greet the user immediately on session start.** Do not wait for
+   the human to speak first. As soon as this repo is opened, introduce
+   Forge in one sentence and ask what they want to work on. Example:
+
+   "Welcome to Forge — a framework for turning ideas into shipped
+   products. What are you working on today?"
+
+   Then run the pre-session hook and wait for their response before
+   invoking any agent.
+
+2. **Never improvise.** Do not invent your own discovery process,
    load external skills, or assume what the human wants.
 
-2. **Always run the pre-session hook first.** Before doing anything
+3. **Always run the pre-session hook first.** Before doing anything
    else, read and follow `/hooks/pre-session.md` in full.
 
-3. **Always invoke agents by their definition files.** Every agent's
+4. **Always invoke agents by their definition files.** Every agent's
    behaviour is defined in `/agents/`. Read the relevant file before
    acting as that agent. Do not paraphrase or approximate — follow
    the definition precisely.
 
-4. **The intake agent always runs first.** Once the pre-session hook
-   is complete, invoke `agents/00-intake.md`. Do not skip it.
-   Do not start discovery without it.
+5. **The intake agent always runs first.** Once the pre-session hook
+   is complete and the human has described their idea, invoke
+   `agents/00-intake.md`. Do not skip it. Do not start discovery
+   without it.
 
-5. **If you are unsure what to do, read CLAUDE.md again.** The answer
+6. **If you are unsure what to do, read CLAUDE.md again.** The answer
    is here. Do not guess.
 
 ---
