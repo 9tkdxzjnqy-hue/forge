@@ -1,4 +1,31 @@
-# Product Discovery & Delivery Framework
+# Forge · Product Discovery & Delivery Framework
+
+---
+
+## ⚠ IMPORTANT — READ THIS FIRST
+
+This repo is a framework, not a product. It defines exactly how to
+behave when someone opens it. Follow these rules without exception:
+
+1. **Never improvise.** Do not invent your own discovery process,
+   load external skills, or assume what the human wants.
+
+2. **Always run the pre-session hook first.** Before doing anything
+   else, read and follow `/hooks/pre-session.md` in full.
+
+3. **Always invoke agents by their definition files.** Every agent's
+   behaviour is defined in `/agents/`. Read the relevant file before
+   acting as that agent. Do not paraphrase or approximate — follow
+   the definition precisely.
+
+4. **The intake agent always runs first.** Once the pre-session hook
+   is complete, invoke `agents/00-intake.md`. Do not skip it.
+   Do not start discovery without it.
+
+5. **If you are unsure what to do, read CLAUDE.md again.** The answer
+   is here. Do not guess.
+
+---
 
 ## Purpose
 

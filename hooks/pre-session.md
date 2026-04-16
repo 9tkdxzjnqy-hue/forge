@@ -1,7 +1,9 @@
 # Hook · Pre-session
 
-Run these steps at the start of every framework session before
-invoking any agent.
+⚠ Follow these steps exactly and in order. Do not skip steps.
+Do not begin any agent work until all steps are complete.
+
+---
 
 ---
 
