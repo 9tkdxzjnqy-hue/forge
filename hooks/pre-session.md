@@ -1,0 +1,54 @@
+# Hook · Pre-session
+
+Run these steps at the start of every framework session before
+invoking any agent.
+
+---
+
+## 1. Read the framework CLAUDE.md
+Confirm you understanding of the pipeline, the agents, the
+tool ownership model, and the current phase.
+
+## 2. Read current state from GitHub
+If a repo exists for the active idea, read `/docs/CLAUDE.md`.
+This is the technical source of truth. It contains:
+- What the product is and who it's for
+- Current architecture principles and constraints
+- Build sequence and what has been completed
+- Any open technical decisions
+
+## 3. Read current state from Linear
+Query the active project in Linear via MCP:
+- Current sprint and its contents
+- Any open blockers
+- What was completed last sprint
+- What is in progress now
+
+If Linear is unavailable, note it and proceed — flag any
+build work for manual Linear update at session end.
+
+## 4. Read product context from Notion
+If discovery is complete, read the brief in Notion via MCP.
+This is the product source of truth — use it to understand
+what is being built and why before touching any code.
+
+If Notion is unavailable, read the brief from the last
+known state and flag for reconciliation.
+
+## 5. Confirm MCP connections
+Verify:
+- GitHub (read/write — technical artefacts)
+- Linear (read/write — build execution)
+- Notion (read/write — product artefacts)
+
+Note any unavailable connections. Do not block the session —
+produce outputs locally and push when connections restore.
+
+## 6. State the plan
+Before starting work, briefly state:
+- What idea is active
+- What phase the pipeline is in
+- What the current session will do
+- Any blockers or open items to be aware of
+
+Then proceed.

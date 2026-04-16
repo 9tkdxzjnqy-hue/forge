@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Output — artefacts go to Notion and idea repos, not here
+output/
+
+# Environment and secrets
+.env
+.env.*
+
+# Editor
+.cursor/
+.vscode/
+.idea/
+
+# Node (if tooling is added later)
+node_modules/
