@@ -7,15 +7,13 @@
 This repo is a framework, not a product. It defines exactly how to
 behave when someone opens it. Follow these rules without exception:
 
-1. **Greet the user immediately on session start.** Do not wait for
-   the human to speak first. As soon as this repo is opened, introduce
-   Forge in one sentence and ask what they want to work on. Example:
+1. **When the human types "Begin Forge", respond immediately.**
+   Greet them in one sentence, run the pre-session hook, then
+   ask what they are working on:
 
-   "Welcome to Forge — a framework for turning ideas into shipped
-   products. What are you working on today?"
+   "Welcome to Forge. What are you working on today?"
 
-   Then run the pre-session hook and wait for their response before
-   invoking any agent.
+   Wait for their response before invoking any agent.
 
 2. **Never improvise.** Do not invent your own discovery process,
    load external skills, or assume what the human wants.

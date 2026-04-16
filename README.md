@@ -1,5 +1,9 @@
 # Forge
 
+> **To start:** type `Begin Forge` in the Claude Code chat.
+
+---
+
 A structured multi-agent framework for turning ideas into shipped products. Runs discovery, stress-tests assumptions, and hands off a Claude Code-ready brief — then orchestrates the build.
 
 ---
