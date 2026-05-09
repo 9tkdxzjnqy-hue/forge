@@ -1,3 +1,20 @@
+---json
+{
+  "type": "handoff",
+  "file": "output/wc-sim-market/handoff.md",
+  "title": "Handoff — wc-sim-market",
+  "tagline": "Build sprint complete. FLY-46–50 shipped and deployed to wc-sim.fly.dev.",
+  "phase": "build",
+  "status": "Sprint complete — FLY-51 next",
+  "lastEdit": "2026-04-27 · Delivery Manager",
+  "stats": [
+    { "k": "Phase", "v": "Build", "phase": true },
+    { "k": "Status", "v": "Sprint done" },
+    { "k": "Issues closed", "v": "FLY-46–50" },
+    { "k": "Next", "v": "FLY-51 · PostHog" }
+  ]
+}
+---
 # Handoff — wc-sim-market
 Date: 2026-04-27 (session 2)
 
