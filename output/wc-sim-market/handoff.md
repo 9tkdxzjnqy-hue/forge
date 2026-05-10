@@ -1,5 +1,6 @@
 ---json
 {
+  "n": "hf",
   "type": "handoff",
   "file": "output/wc-sim-market/handoff.md",
   "title": "Handoff — wc-sim-market",
